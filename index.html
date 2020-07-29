@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umbrella Customizer</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script defer src="scripts/script.js"></script>
+</head>
+
+<body>
+    <div class="row outer">
+        <div class="column-50 left">
+            <img id="umbrella-image" src="assets/Blue umbrella.png" alt="" srcset="">
+            <img id="loading" class="disabled blue-spinner loader" src="assets/loader_icon.svg" alt="" srcset="">
+            <img id="logo" class="disabled" src="assets/Pink umbrella.png">
+        </div>
+        <div class="column-50 right">
+            <h1>Custom Umbrella</h1>
+            <button class="circular-button blue" id="blue-button"></button> <button class="circular-button pink" id="pink-button"></button> <button class="circular-button yellow" id="yellow-button"></button>
+            <div style="max-width: 70%;">
+                <div class="large-text ">Customize your umbrella</div>
+                <div class="medium-text ">Upload a logo for an instant preview</div>
+                <div class="small-text ">.png and .jpg files only. Max file size is 5MB.</div>
+            </div>
+
+            <button id="upload">
+                <div class="row nopadding">
+                    <span class="column-33 nopadding text-left"><i class="icon"></i></span>
+                    <span class="column-33 nopadding text-left" style="padding-top: 1%;"> UPLOAD LOGO </span>
+                    <span class="column-33 nopadding text-right"> </span>
+                </div>
+            </button>
+            <input id='fileUploader' type='file' hidden />
+        </div>
+    </div>
+</body>
+
+</html>
