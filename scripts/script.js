@@ -63,19 +63,19 @@
     blueButton.onclick = () => {
         removeOldColorClasses();
         loadingIcon.classList.add("blue-spinner");
-        changeTheme("../assets/Blue umbrella.png", "#80d8ff", "#0390f4");
+        changeTheme("assets/Blue-umbrella.png", "#80d8ff", "#0390f4");
     }
 
     yellowButton.onclick = () => {
         removeOldColorClasses();
         loadingIcon.classList.add("yellow-spinner");
-        changeTheme("../assets/Yello umbrella.png", "#fff9c4", "#fdd835");
+        changeTheme("assets/Yello-umbrella.png", "#fff9c4", "#fdd835");
     }
 
     pinkButton.onclick = () => {
         removeOldColorClasses();
         loadingIcon.classList.add("pink-spinner");
-        changeTheme("../assets/Pink umbrella.png", "#f8bbd0", "#e91e63");
+        changeTheme("assets/Pink-umbrella.png", "#f8bbd0", "#e91e63");
     }
 
 }
