@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Umbrella Customizer</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script defer src="scripts/helper.js">
+    </script>
     <script defer src="scripts/script.js"></script>
 </head>
 
@@ -18,7 +20,9 @@
         </div>
         <div class="column-50 right">
             <h1>Custom Umbrella</h1>
-            <button class="circular-button blue" id="blue-button"></button> <button class="circular-button pink" id="pink-button"></button> <button class="circular-button yellow" id="yellow-button"></button>
+            <div id="circular-color-buttons">
+                <!-- Javascript is used to populate the buttons -->
+            </div>
             <div style="max-width: 70%;">
                 <div class="large-text ">Customize your umbrella</div>
                 <div class="medium-text ">Upload a logo for an instant preview</div>
