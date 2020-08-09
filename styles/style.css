@@ -83,33 +83,6 @@ button {
     padding: 2%;
 }
 
-.blue {
-    background-color: #0390f4;
-}
-
-.pink {
-    background-color: #e91e63;
-}
-
-.yellow {
-    background-color: #fdd835;
-}
-
-.blue-spinner {
-    /* background-color: #0390f4; */
-    filter: invert(44%) sepia(15%) saturate(6484%) hue-rotate(181deg) brightness(94%) contrast(105%);
-}
-
-.pink-spinner {
-    /* background-color: #e91e63; */
-    filter: invert(24%) sepia(85%) saturate(2635%) hue-rotate(324deg) brightness(90%) contrast(104%);
-}
-
-.yellow-spinner {
-    /* background-color: #fdd835; */
-    filter: invert(91%) sepia(86%) saturate(6830%) hue-rotate(326deg) brightness(102%) contrast(99%);
-}
-
 .large-text {
     font-size: large;
     font-weight: 700;
